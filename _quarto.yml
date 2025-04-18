@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "ShuyinZheng's website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - resume.qmd
+      - href: blog.qmd
+        text: Projects
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
