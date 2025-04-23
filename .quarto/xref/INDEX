@@ -13,5 +13,14 @@
   },
   "blog/blog.qmd": {
     "blog.html": "6a45acf5"
+  },
+  "blog/Project 1/hw1_questions.qmd": {
+    "hw1_questions.html": "0fd22b1f"
+  },
+  "blog.qmd": {
+    "blog.html": "c343cb6a"
+  },
+  "blog/Project 1/A Replication of Karlan and List (2007).qmd": {
+    "A Replication of Karlan and List (2007).html": "6455460f"
   }
 }
