@@ -263,6 +263,18 @@ Attaching package: 'dplyr'</code></pre>
 #   stateresponse &lt;dbl&gt;, stateresponset &lt;dbl&gt;, stateresponsec &lt;dbl&gt;, …</code></pre>
 </div>
 </div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Summarize numerical columns &amp; frequency of treatment groups
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <div class="cell">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Summarize numerical columns</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -381,9 +393,12 @@ Attaching package: 'dplyr'</code></pre>
   1     0 11133 11134 11129</code></pre>
 </div>
 </div>
+</div>
+</div>
+</div>
 <p>The dataset consists of 50,083 observations collected from a large-scale experiment on charitable giving. Each row represents a potential donor who received a fundraising letter as part of the experiment. The primary treatment variable (treatment) indicates whether the recipient was offered a matching grant, while the ratio variable specifies the match rate ($1:$1, $2:$1, or $3:$1). About 67% of participants received a match treatment, evenly split across the three match ratios. The dataset also includes variations in the maximum match amount (size) and suggested donation levels (ask1, ask2, ask3). Key outcome variables include whether a donation was made (gave) and the donation amount (amount), which has a highly skewed distribution with a mean of $0.92 and a maximum of $400. Additional variables describe donor giving history (e.g., hpa for highest previous amount), demographics (e.g., female, couple), and ZIP-level census attributes such as income, education, and urbanization. Political context is captured by indicators like redcty, bluecty, and perbush, allowing for analysis of heterogeneous treatment effects by political leaning.</p>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -392,7 +407,7 @@ Variable Definitions
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <table class="caption-top table">
 <colgroup>
